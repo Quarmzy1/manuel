@@ -1,4 +1,4 @@
-# NMAP Cheat Sheet
+# NMAP Command Combo 
 
 Base nmap Syntax: Manuel Chat list 
 
