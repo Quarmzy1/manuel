@@ -63,7 +63,7 @@ If no port range is specified, Nmap scans the 1,000 most popular ports.
 
  # Nmap Scripting Engine
 
-The full list of Nmap Scripting Engine scripts: http://nmap.org/nsedoc/
+The full list of Nmap Scripting Engine scripts:https://nmap.org/book/nse.html
 
 `nmap -sC` runs default scripts...
 
