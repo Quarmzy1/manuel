@@ -158,9 +158,9 @@ ping -c 1 ug.edu.gh \# 1 echo request to a host
 >
 > set net.show.meta true \#more info
 >
-> **ACTIVE PENTESTING NETWORK**
+>  **ACTIVE PENTESTING NETWORK**
 
-**Discovering hosts from the outside;**
+    **Discovering hosts from the outside;**
 
 > use **nmap** to send other types of ICMP packets (this will avoid
 > filters to common ICMP echo request-response)
