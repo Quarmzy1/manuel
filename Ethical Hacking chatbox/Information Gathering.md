@@ -1,8 +1,8 @@
-E.g My target is a school called ug.edu.gh (University Of Ghana)
+E.g My target is a school called example.edu.cb (University)
 
 So we are to gather information of our target;
 
-When conducting reconnaissance on a target like ug.edu.gh, the goal is
+When conducting reconnaissance on a target like  example.edu.cb, the goal is
 to gather as much information as possible in both a passive and active
 manner to assess potential weaknesses, vulnerabilities, or attack
 vectors. Gathering this information can help you understand the network,
@@ -100,11 +100,11 @@ ICMP is the simplest way to discovery hosts is up and running; This
 sends some **ICMP** packets and **expect** responses from the target
 system
 
-ping -c 1 ug.edu.gh \# 1 echo request to a host
+ping -c 1  example.edu.cb \# 1 echo request to a host
 
 - fping -g 199.66.11.0/24 \# Send echo requests to ranges
 
-- host ug.edu.gh \# Tells you the sysyems is up and running
+- host  example.edu.cb \# Tells you the sysyems is up and running
 
 - whois \<Target IP\> \#Gives more info about the server running
 
@@ -116,11 +116,11 @@ ping -c 1 ug.edu.gh \# 1 echo request to a host
 
 - webtech -u \<URL\>
 
-- webanalyze -host https://google.com -crawl 2
+- webanalyze -host https:// example.edu.cb -crawl 2
 
 - ./fierce \--domain \<Target IP\>
 
-- theHarvester **  -d ug.edu.gh -l 500 -b google**
+- theHarvester **  -d  example.edu.cb -l 500 -b google**
 
 - theHarvester \--no-error \<Target IP\>
 
@@ -129,11 +129,11 @@ ping -c 1 ug.edu.gh \# 1 echo request to a host
 >
 > **Google Dorking**
 >
-> site:ug.edu.gh
+> site: example.edu.cb
 >
-> intitle:\"index of\" site:ug.edu.gh
+> intitle:\"index of\" site: example.edu.cb
 >
-> filetype:xls OR filetype:doc site:ug.edu.gh
+> filetype:xls OR filetype:doc site:example.edu.cb
 >
 > **Discovering Hosts from the Inside;**
 >
