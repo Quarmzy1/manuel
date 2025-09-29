@@ -1,3 +1,4 @@
+E.g My target is a school called example.edu.cb (University)
 
 So we are to gather information of our target;
 
